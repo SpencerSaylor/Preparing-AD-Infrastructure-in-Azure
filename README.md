@@ -82,11 +82,13 @@
  5. Attempt to ping DC-1’s private IP address
  <ul>
   <li>Ensure the ping succeeded</li>
+  <img src="https://i.imgur.com/cWYOLbj.png"/>
  </ul>
 </p>
 <p>
  6. From Client-1, open PowerShell and run ipconfig /all
  <ul>
   <li>The output for the DNS settings should show DC-1’s private IP Address</li>
+  <img src="https://i.imgur.com/xOpEqhv.png"/>
  </ul>
 </p>
