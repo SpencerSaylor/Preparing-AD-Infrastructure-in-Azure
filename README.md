@@ -69,6 +69,8 @@
 </p>
 <p>
  <em>After VM is created, set Client-1’s DNS settings to DC-1’s Private IP address</em>
+ <img src="https://i.imgur.com/dWeijAK.png"/>
+ <img src="https://i.imgur.com/7hB9F1D.png" />
 </p>
 <p>
  3. From the Azure Portal, restart Client-1
