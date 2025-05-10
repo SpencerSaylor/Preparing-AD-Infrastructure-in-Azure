@@ -32,9 +32,26 @@
 
 
 <p><em>After VM is created, set Domain Controller’s NIC Private IP address to be static</em></p>
+<img src="https://i.imgur.com/4QzSHbP.png"/>
+<img src="https://i.imgur.com/rGCTcXm.png"/>
+<img src="https://i.imgur.com/lgpIJKa.png"/>
 
 <p>
   4. Log into the VM and disable the Windows Firewall (for testing connectivity)
+ <ol>
+  <li>Right click the windows logo</li>
+  <li>Select Run</li>
+  <li>Type wf.msc</li>
+  <li>Select Windows Defender Firewall Properties</li>
+  <li>
+   Press "o" to turn off the firewall state on these tabs
+   <ul>
+    <li>Domain Profile</li>
+    <li>Private Profile</li>
+    <li>Public Profile</li>
+   </ul>
+  </li>
+ </ol>
 </p>
 </b>
 
